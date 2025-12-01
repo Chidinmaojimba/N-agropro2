@@ -1,6 +1,6 @@
 import arrowrightgreen from "../assets/arrow-rightgreen.png"; 
 import imagehero from "../assets/imagehero.png";
-import arrowgreen from "../assets/Arrowgreen.png"
+import arrowgreen from "../assets/arrowgreen.png"
 import Footer from "./Footer";
 import { useNavigate } from "react-router-dom";
 
