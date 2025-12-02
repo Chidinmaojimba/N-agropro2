@@ -145,6 +145,30 @@ select:focus {
   gap: 5px; 
 }
 
+.continueBttn {
+width: 281px;
+height: 56px;
+opacity: 0.5;
+border-radius: 6px;
+gap: 12px;
+padding: 16px;
+background: #288855;
+color:#ffffff;
+font-family: Mulish;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+line-height: 24px;
+border: none;
+}
+
+.bttn-container {
+  display: flex;
+align-items: center;
+justify-content: center;
+width:100%;
+}
+
 /* mobile responsiveness
 @media (max-width: 900px) {
   .page-wrapper {
@@ -169,25 +193,236 @@ select:focus {
   }
 } */
 
-.continueBttn {
-width: 281px;
-height: 56px;
-opacity: 0.5;
-border-radius: 6px;
-gap: 12px;
-padding: 16px;
-background: #288855;
-color:#ffffff;
-font-family: Mulish;
-font-weight: 700;
-font-style: Bold;
-font-size: 16px;
-line-height: 24px;
+
+
+/* ================================
+   320px — VERY SMALL PHONES
+================================ */
+@media (max-width: 320px) {
+
+  .biodata {
+    flex-direction: column;
+    width: 96%;
+    gap: 15px;
+  }
+
+  .biodataOne,
+  .biodataTwo {
+    width: 100%;
+  }
+
+  .biodataImg {
+    height: auto;
+  }
+
+  .form-title {
+    font-size: 20px;
+  }
+
+  .step p {
+    font-size: 14px;
+  }
+
+  .bio-form {
+    gap: 10px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  .gender-options {
+    flex-direction: column;
+  }
 }
 
-.bttn-container {
-  display: flex;
-align-items: center;
-justify-content: center;
-width:100%;
+
+
+/* ================================
+   375px — SMALL PHONES
+================================ */
+@media (min-width: 321px) and (max-width: 375px) {
+
+  .biodata {
+    flex-direction: column;
+    width: 94%;
+    gap: 20px;
+  }
+
+  .biodataOne,
+  .biodataTwo {
+    width: 100%;
+  }
+
+  .form-title {
+    font-size: 22px;
+  }
+
+  .step p {
+    font-size: 15px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  .gender-options {
+    gap: 12px;
+  }
+
+  .continueBttn {
+    width: 90%;
+    height: 50px;
+    font-size: 15px;
+  }
 }
+
+
+/* =========================================
+   📱 0px – 480px (Extra Small devices)
+========================================= */
+@media (max-width: 480px) {
+
+  .biodata {
+    flex-direction: column;
+    width: 95%;
+    gap: 20px;
+  }
+
+  .biodataOne, 
+  .biodataTwo {
+    width: 100%;
+  }
+
+  .biodataImg {
+    height: auto;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  .form-title {
+    font-size: 22px;
+  }
+
+  .continueBttn {
+    width: 90%;
+  }
+}
+
+/* =========================================
+   📱 481px – 768px (Small tablets / large phones)
+========================================= */
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .biodata {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .biodataOne,
+  .biodataTwo {
+    width: 100%;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .step p {
+    font-size: 16px;
+  }
+
+  .continueBttn {
+    width: 80%;
+  }
+}
+
+/* =========================================
+  💻 769px – 1024px (Tablets / small laptops)
+========================================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .biodata {
+    width: 90%;
+    gap: 25px;
+  }
+
+  .biodataOne {
+    width: 45%;
+  }
+
+  .biodataTwo {
+    width: 50%;
+  }
+
+  .form-row {
+    flex-direction: row;
+  }
+
+  .form-group {
+    width: 50%;
+  }
+
+  .continueBttn {
+    width: 260px;
+  }
+}
+
+/* =========================================
+  💻💻 1025px – 1280px (Desktops)
+========================================= */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  .biodata {
+    width: 85%;
+  }
+
+  .biodataOne {
+    width: 40%;
+  }
+
+  .biodataTwo {
+    width: 57%;
+  }
+
+  .continueBttn {
+    width: 260px;
+  }
+}
+
+
+/* =========================================
+  🖥️ 1281px – 1440px (Large desktops)
+========================================= */
+@media (min-width: 1281px) and (max-width: 1440px) {
+
+  .biodata {
+    width: 80%;
+  }
+
+  .form-title {
+    font-size: 32px;
+  }
+
+  .continueBttn {
+    width: 281px;
+  }
+}
+
