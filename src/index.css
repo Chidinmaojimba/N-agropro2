@@ -512,16 +512,33 @@ display: flex;
   .homeImg img {
     width: 60%;
     height: auto;
+    margin-right: 90px;
   }
 
   .overview {
-    width: 90%;
-    margin: 60px auto;
+    /* width: 90%;
+    margin: 60px auto; */
+    align-items: center;
+        display: flex;
+        width: 90%;
+        justify-content: space-around;
+        margin-right: 20px;
+        margin-left: 20px;
   }
 
   .homeBttn {
-    margin-left: 100px;
+    margin-left: 180px;
+    margin-bottom: 20px;
   }
+
+  .overviewOne {
+    
+  }
+
+  .overviewTwo p{
+   font-size: smaller; 
+  }
+
 
 }
 
