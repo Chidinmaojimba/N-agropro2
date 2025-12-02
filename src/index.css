@@ -542,10 +542,15 @@ display: flex;
   .overview {
     width: 90%;
     gap: 40px;
+    margin-left: 100px;
   }
 
   .overviewTwo h2 {
     font-size: 40px;
+  }
+
+  .homeBttn {
+    margin-left: 100px;
   }
 }
 
@@ -588,4 +593,5 @@ display: flex;
     width: 80%;
     margin: 100px auto;
   }
+
 }
