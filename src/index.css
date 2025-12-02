@@ -519,6 +519,10 @@ display: flex;
     margin: 60px auto;
   }
 
+  .homeBttn {
+    margin-left: 100px;
+  }
+
 }
 
 
@@ -549,9 +553,7 @@ display: flex;
     font-size: 40px;
   }
 
-  .homeBttn {
-    margin-left: 100px;
-  }
+  
 }
 
 
