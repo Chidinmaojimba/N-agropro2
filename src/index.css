@@ -389,6 +389,23 @@ display: flex;
 
 
 
+@media (max-width: 425px) {
+.homeBttn {
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+
+.homeImg img {
+    width: 80%;
+    height: auto;
+    margin-left: -40px;
+  }
+
+      .apply-btn {
+        width: 120px;
+      }
+}
+
 
 
 
@@ -531,12 +548,13 @@ display: flex;
     margin-bottom: 20px;
   }
 
-  .overviewOne {
-    
+  
+  .overviewTwo p{
+   font-size: 18px; 
   }
 
-  .overviewTwo p{
-   font-size: smaller; 
+  .overviewBttn{
+    width: 300px;
   }
 
 
