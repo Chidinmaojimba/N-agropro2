@@ -169,29 +169,6 @@ justify-content: center;
 width:100%;
 }
 
-/* mobile responsiveness
-@media (max-width: 900px) {
-  .page-wrapper {
-    flex-direction: column;
-  }
-
-  .left-image {
-    width: 100%;
-    height: 300px;
-    margin: 0;
-    border-radius: 0;
-  }
-
-  .right-form,
-  .form-container {
-    margin: 20px;
-    max-width: 100%;
-  }
-
-  .form-row {
-    flex-direction: column;
-  }
-} */
 
 
 
@@ -243,9 +220,6 @@ width:100%;
 
 
 
-/* ================================
-   375px — SMALL PHONES
-================================ */
 @media (min-width: 321px) and (max-width: 375px) {
 
   .biodata {
@@ -288,9 +262,7 @@ width:100%;
 }
 
 
-/* =========================================
-   📱 0px – 480px (Extra Small devices)
-========================================= */
+
 @media (max-width: 480px) {
 
   .biodata {
@@ -321,13 +293,11 @@ width:100%;
   }
 
   .continueBttn {
-    width: 90%;
+    width: 70%;
   }
 }
 
-/* =========================================
-   📱 481px – 768px (Small tablets / large phones)
-========================================= */
+
 @media (min-width: 481px) and (max-width: 768px) {
 
   .biodata {
@@ -350,13 +320,21 @@ width:100%;
   }
 
   .continueBttn {
-    width: 80%;
+    width: 50%;
   }
 }
 
-/* =========================================
-  💻 769px – 1024px (Tablets / small laptops)
-========================================= */
+@media (max-width: 768px) {
+  .biodataImg {
+    width: 80%;
+    height: 80%;
+    object-fit: scale-down;
+    margin-left: 50px;
+}
+
+}
+
+
 @media (min-width: 769px) and (max-width: 1024px) {
 
   .biodata {

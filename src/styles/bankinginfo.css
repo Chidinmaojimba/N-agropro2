@@ -103,3 +103,165 @@ h2 {
 }
 
 
+
+
+
+
+
+
+/* @media (max-width: 480px) {
+
+  
+  .bank-container,
+  .main-biodata,
+  .biodata {
+    flex-direction: column;
+    width: 100%;
+    padding: 12px;
+    align-items: center;
+  }
+
+  
+  .left-card, .biodataOne {
+    width: 260px;
+    height: auto;
+  }
+
+  .profile-photo,
+  .biodataImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  
+  h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .testimonial p,
+  .testimonial span,
+  label,
+  input,
+  button {
+    font-size: 13px;
+  }
+
+  
+  .form-grid2 {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .agreement {
+    font-size: 12px;
+  }
+
+  .buttons-row {
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+  }
+
+  button {
+    height: 44px;
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 320px) {
+  .biodataImg {
+    width: 220px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .input-box input, .input-box select {
+    height: 42px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .biodataImg {
+    width: 240px;
+  }
+
+  h2 {
+    font-size: 17px;
+  }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .bank-container,
+  .biodata {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .biodataOne {
+    width: 340px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .buttons-row {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  button {
+    width: 48%;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .bank-container {
+    gap: 26px;
+    padding: 18px;
+  }
+
+  .left-card,
+  .biodataOne {
+    width: 360px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .buttons-row {
+    justify-content: space-between;
+  }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  .bank-container {
+    max-width: 1050px;
+  }
+
+  .left-card,
+  .biodataOne {
+    width: 400px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+}  */

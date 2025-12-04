@@ -26,7 +26,7 @@ const navigate = useNavigate();
                 <button className="homeBttn">Read more<img src={arrowgreen} className="arrowGreen"></img></button>
           </div>
           <div className="homeImg">
-                <img src={imagehero} alt="image hero"/>
+                <img src={imagehero} alt="image hero" className="home-img"/>
           </div>
        </div> 
      </div>
