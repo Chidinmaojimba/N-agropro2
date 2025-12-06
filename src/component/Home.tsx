@@ -23,9 +23,12 @@ const navigate = useNavigate();
             <div className="writeUp">
                 <h2>N-Power Agro</h2>
                 <p>The Federal Government is engaging 100,000 qualified young Nigerians<br></br> through the N-Power Agro programme...</p>
-                <button className="homeBttn">Read more<img src={arrowgreen} className="arrowGreen"></img></button>
+                <div className="arrow-green">
+                  <button className="homeBttn">Read more<img src={arrowgreen} className="arrowGreen"></img></button>
+                </div>
+                
           </div>
-          <div className="homeImg">
+          <div>
                 <img src={imagehero} alt="image hero" className="home-img"/>
           </div>
        </div> 

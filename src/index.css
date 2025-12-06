@@ -97,11 +97,11 @@ body{
 }
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .nav-links {
     display: none; 
   }
-}
+} */
 
 
 .guide {
@@ -152,7 +152,6 @@ body{
   /* width: 1440px; */
   width: 100%;
   height: 507px;
-  opacity: 1;
   margin-top: 50px;
 }
 
@@ -176,10 +175,10 @@ body{
 
 .homeImg {
   max-width: 480px;
-  height: 507;
+  height: 507px;
   opacity: 1;
   border-radius: 10px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 
 .homeBttn  {
@@ -196,10 +195,14 @@ body{
   align-items: center;
 }
 
+.arrow-green{
+  width: 100%;
+}
+
 
 
 .arrowGreen{
-  width: 24;
+ width: 24;
   height: 23.83708381652832;
   opacity: 1;
   border-width: 2px;
@@ -389,123 +392,6 @@ display: flex;
 
 
 
-@media (max-width: 425px) {
-
-  .homeWriteup {
-    flex-direction: column;
-    text-align: center;
-    margin-top: 20px;
-    height: auto;
-  }
-.homeBttn {
-    margin-left: 180px;
-    margin-bottom: 20px;
-}
-
-
-.homeImg  { 
-    /* margin-right: 80px; */
-
-    margin: 0 auto;
-
-}
-
-      .apply-btn {
-        width: 120px;
-      }
-
-    }   
-
-
-
-
-
-@media (max-width: 480px) {
-
-  .navbar {
-    justify-content: space-between;
-    padding: 12px;
-  }
-
-  .nav-links {
-    display: none; /* hide desktop links */
-  }
-
-  .apply-btn {
-    width: auto;
-    padding: 10px 14px;
-    font-size: 14px;
-    height: 46px;
-  }
-
-  /* breadcrumbs */
-  .guide {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 6px;
-  }
-
-  .guide button {
-    font-size: 12px;
-  }
-
-  .homeWriteup {
-    flex-direction: column;
-    text-align: center;
-    margin-top: 20px;
-    height: auto;
-  }
-
-  .writeUp h2 {
-    font-size: 28px;
-  }
-
-  .writeUp p {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  .homeImg{
-    margin-left: auto !important;
-  }
-  .homeImg img {
-    width: 90%;
-    height: auto;
-    margin: 20px auto;
-   
-  }
-
-  .overview {
-    flex-direction: column;
-    width: 90%;
-    margin: 40px auto;
-    gap: 20px;
-  }
-
-  .overviewOne,
-  .overviewTwo {
-    width: 100%;
-    padding: 0;
-  }
-
-  .overviewTwo h2 {
-    font-size: 28px;
-    line-height: 32px;
-  }
-
-  .overviewTwo p {
-    font-size: 15px;
-    line-height: 24px;
-  }
-
-  footer {
-    flex-direction: column;
-    gap: 12px;
-    text-align: center;
-    padding: 16px;
-  }
-
-}
 
 
 
@@ -513,27 +399,37 @@ display: flex;
 
 
 
-@media (min-width: 481px) and (max-width: 768px) {
+
+@media  (max-width: 768px) {
 
   .homeWriteup {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    /* margin-top: 80px; */
   }
 
   .writeUp h2 {
     font-size: 30px;
   }
 
-  .homeImg img {
-    width: 60%;
+  .home-img {
+    width: 80%;
     height: auto;
 
+  }
+  .arrow-green{
+    width: 100%;
+   display: flex;
+   align-items: center;
+   /* justify-content: space-around; */
+  
   }
 
   .overview {
     /* width: 90%;
     margin: 60px auto; */
+    flex-direction: column    ;
     align-items: center;
         display: flex;
         width: 90%;
@@ -543,8 +439,9 @@ display: flex;
   }
 
   .homeBttn {
-    margin-left: 180px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+    /* margin-left: 200px; */
+    
   }
 
   
@@ -556,84 +453,13 @@ display: flex;
     width: 300px;
   }
 
-
-}
-
-
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  
-  .homeWriteup {
-    width: 90%;
-    margin: auto;
-    gap: 30px;
-  }
-
-  .writeUp h2 {
-    font-size: 42px;
-  }
-
-  .homeImg img {
-    width: 80%;
-  }
-
-  .overview {
-    width: 90%;
-    gap: 40px;
-    margin-left: 100px;
-  }
-
-  .overviewTwo h2 {
-    font-size: 40px;
-  }
-
-  
-}
-
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-  .homeWriteup {
-    width: 85%;
-    margin: auto;
-  }
-
-  .writeUp h2 {
-    font-size: 48px;
-  }
-
-  .homeImg img {
-    width: 400px;
-    height: auto;
-  }
-
-  .overview {
-    width: 85%;
-    margin: 80px auto;
+  .arrow-green{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 
-@media (min-width: 1281px) and (max-width: 1440px) {
 
-  .homeWriteup {
-    width: 80%;
-    margin: 70px auto;
-  }
 
-  .writeUp h2 {
-    font-size: 54px;
-  }
-
-  .overview {
-    width: 80%;
-    margin: 100px auto;
-  }
-
-  .homeImg img {
-    width: 100%;
-     height: auto; 
-     margin-right: 40px;
-  }
-
-}
