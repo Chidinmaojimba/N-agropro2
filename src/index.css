@@ -432,10 +432,10 @@ display: flex;
     flex-direction: column    ;
     align-items: center;
         display: flex;
-        width: 90%;
+        width: 100%;
         justify-content: space-around;
-        margin-right: 20px;
-        margin-left: 20px;
+        /* margin-right: 20px;
+        margin-left: 20px; */
   }
 
   .homeBttn {
@@ -443,10 +443,19 @@ display: flex;
     /* margin-left: 200px; */
     
   }
-
+.overviewOne{
   
+    justify-content: center;
+    text-align: center;
+}
+  .overviewTwo{
+     justify-self: center;
+    justify-content: center;
+    text-align: center;
+
+  }
   .overviewTwo p{
-   font-size: 18px; 
+   font-size: 17px; 
   }
 
   .overviewBttn{
@@ -465,9 +474,7 @@ display: flex;
     text-align: center;
   }
   .nav-links{
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    display: none;
   }
 }
 
