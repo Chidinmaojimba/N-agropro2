@@ -88,5 +88,4 @@ const Citizenshipid = () => {
      );
 }
  
-export default Citizenshipid
-;
+export default Citizenshipid;
