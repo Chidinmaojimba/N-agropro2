@@ -340,7 +340,7 @@ footer {
 }
 
 .footer-links {
-width: 369;
+ width: 369; 
 height: 24;
 opacity: 1;
 gap: 24px;
@@ -449,7 +449,7 @@ display: flex;
     text-align: center;
 }
   .overviewTwo{
-     justify-self: center;
+    
     justify-content: center;
     text-align: center;
 
@@ -476,7 +476,14 @@ display: flex;
   .nav-links{
     display: none;
   }
-}
+
+  /* .footer-links{
+    justify-content: space-around;
+    align-items: center; */
+  }
+
+
+
 
 
 

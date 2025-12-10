@@ -125,7 +125,7 @@ font-weight: 400;
 /* BOTTOM BUTTONS */
 .buttons-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: ;
   margin-top: 70px;
 }
 

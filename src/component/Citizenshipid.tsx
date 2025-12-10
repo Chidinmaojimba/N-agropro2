@@ -78,8 +78,9 @@ const Citizenshipid = () => {
         </div>
 
 
-</div>      
+     
             </div>
+ </div>
             </div>
         
 

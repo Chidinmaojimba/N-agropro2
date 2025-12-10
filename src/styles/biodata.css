@@ -146,7 +146,7 @@ select:focus {
 }
 
 .continueBttn {
-width: 281px;
+max-width: 281px;
 height: 56px;
 opacity: 0.5;
 border-radius: 6px;
@@ -172,133 +172,11 @@ width:100%;
 
 
 
-/* ================================
-   320px — VERY SMALL PHONES
-================================ */
-@media (max-width: 320px) {
-
-  .biodata {
-    flex-direction: column;
-    width: 96%;
-    gap: 15px;
-  }
-
-  .biodataOne,
-  .biodataTwo {
-    width: 100%;
-  }
-
-  .biodataImg {
-    height: auto;
-  }
-
-  .form-title {
-    font-size: 20px;
-  }
-
-  .step p {
-    font-size: 14px;
-  }
-
-  .bio-form {
-    gap: 10px;
-  }
-
-  .form-row {
-    flex-direction: column;
-    gap: 7px;
-  }
-
-  .form-group {
-    width: 100%;
-  }
-
-  .gender-options {
-    flex-direction: column;
-  }
-}
 
 
 
-@media (min-width: 321px) and (max-width: 375px) {
 
-  .biodata {
-    flex-direction: column;
-    width: 94%;
-    gap: 20px;
-  }
-
-  .biodataOne,
-  .biodataTwo {
-    width: 100%;
-  }
-
-  .form-title {
-    font-size: 22px;
-  }
-
-  .step p {
-    font-size: 15px;
-  }
-
-  .form-row {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .form-group {
-    width: 100%;
-  }
-
-  .gender-options {
-    gap: 12px;
-  }
-
-  .continueBttn {
-    width: 90%;
-    height: 50px;
-    font-size: 15px;
-  }
-}
-
-
-
-@media (max-width: 480px) {
-
-  .biodata {
-    flex-direction: column;
-    width: 95%;
-    gap: 20px;
-  }
-
-  .biodataOne, 
-  .biodataTwo {
-    width: 100%;
-  }
-
-  .biodataImg {
-    height: auto;
-  }
-
-  .form-row {
-    flex-direction: column;
-  }
-
-  .form-group {
-    width: 100%;
-  }
-
-  .form-title {
-    font-size: 22px;
-  }
-
-  .continueBttn {
-    width: 70%;
-  }
-}
-
-
-@media (min-width: 481px) and (max-width: 768px) {
+@media  (max-width: 768px) {
 
   .biodata {
     flex-direction: column;
@@ -308,6 +186,13 @@ width:100%;
   .biodataOne,
   .biodataTwo {
     width: 100%;
+  }
+
+  .biodataTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .form-row {
@@ -318,13 +203,23 @@ width:100%;
   .step p {
     font-size: 16px;
   }
-
-  .continueBttn {
-    width: 50%;
+  .step {
+    position: absolute;
+    top:0;
+    right: 50%;
+    justify-content: space-between;
+    
   }
-}
 
-@media (max-width: 768px) {
+  .step p{
+    color:#000000;
+  }
+
+  .step img {
+    display: none;
+  }
+  
+
   .biodataImg {
     width: 80%;
     height: 80%;
@@ -332,75 +227,22 @@ width:100%;
     margin-left: 50px;
 }
 
+.continueBttn {
+  width: 50%;
+}
+
+.backBttn {
+width: 50%;
+}
+
+.buttons-row {
+  display: flex;
+align-items: center;
+justify-content: center;
+width:100%; 
 }
 
 
-@media (min-width: 769px) and (max-width: 1024px) {
-
-  .biodata {
-    width: 90%;
-    gap: 25px;
-  }
-
-  .biodataOne {
-    width: 45%;
-  }
-
-  .biodataTwo {
-    width: 50%;
-  }
-
-  .form-row {
-    flex-direction: row;
-  }
-
-  .form-group {
-    width: 50%;
-  }
-
-  .continueBttn {
-    width: 260px;
-  }
 }
 
-/* =========================================
-  💻💻 1025px – 1280px (Desktops)
-========================================= */
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-  .biodata {
-    width: 85%;
-  }
-
-  .biodataOne {
-    width: 40%;
-  }
-
-  .biodataTwo {
-    width: 57%;
-  }
-
-  .continueBttn {
-    width: 260px;
-  }
-}
-
-
-/* =========================================
-  🖥️ 1281px – 1440px (Large desktops)
-========================================= */
-@media (min-width: 1281px) and (max-width: 1440px) {
-
-  .biodata {
-    width: 80%;
-  }
-
-  .form-title {
-    font-size: 32px;
-  }
-
-  .continueBttn {
-    width: 281px;
-  }
-}
 

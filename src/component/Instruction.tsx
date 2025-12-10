@@ -13,7 +13,9 @@ const Instruction = () => {
                     <img src={applycard} alt="apply-card" />
                 </div>
                 <div className="instructionTwo">
+                  <div className="instructionLogo">
                     <img src={npowerlogo} alt="Logo" className="instruction-logo" />
+                  </div>
                     <h3>N-Power 2024 Batch A Registration</h3>
                     <p>Important Notes:</p>
                     <ol start={1}>
@@ -21,11 +23,12 @@ const Instruction = () => {
                         <li>Applicant must be at least 18 years of age.</li>
                         <li>Applicant must not already be a beneficiary of the N-Power<br></br> Programme.</li>
                     </ol>
-                
+                <div className="but">
                     <button onClick={() => navigate("/biodata")}>
                          Apply 
                     </button>
                     <button >Take Examination</button>
+                </div>
 
                     
                     </div>
