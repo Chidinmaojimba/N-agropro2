@@ -148,7 +148,6 @@ select:focus {
 .continueBttn {
 max-width: 281px;
 height: 56px;
-opacity: 0.5;
 border-radius: 6px;
 gap: 12px;
 padding: 16px;
@@ -240,7 +239,7 @@ width:100%;
 
 
 .continueBttn {
-  width: 50%;
+  width: 100%;
 }
 
 .backBttn {
@@ -255,6 +254,16 @@ gap: 20px;
 flex-direction: column;
 width:100%; 
 }
+
+.buttons-programme {
+ display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+flex-direction: column;
+width:100%;  
+}
+
 
 
 }
