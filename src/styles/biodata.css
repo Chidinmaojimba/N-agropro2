@@ -264,8 +264,16 @@ flex-direction: column;
 width:100%;  
 }
 
+/* .form-group input, select{
+  width: 100%;
+} */
 
+}
 
+@media  (max-width: 518px) {
+.biodataImg {
+  margin-top: 40px;
+}
 }
 
 

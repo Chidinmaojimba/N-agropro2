@@ -286,8 +286,8 @@ body{
 }
 
 .overviewTwo p {
-  width: 780;
-  height: 136;
+  /* width: 780; */
+  /* height: 136; */
   opacity: 1;
   gap: 16px;
   font-family: Mulish;
@@ -477,10 +477,30 @@ display: flex;
     display: none;
   }
 
+  
+
+  .overviewp {
+    /* display: flex;
+    align-items: center;
+   justify-items:center;
+    align-self: center; */
+    /* text-align: center; */
+  }
+
   /* .footer-links{
     justify-content: space-around;
     align-items: center; */
   }
+
+
+  @media  (max-width: 505px) {
+.apply-btn {
+  height: 50px;
+    width: 120px;
+}
+
+  }
+  
 
 
 
