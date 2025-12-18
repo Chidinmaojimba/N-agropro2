@@ -197,6 +197,7 @@ width:100%;
   .form-row {
     flex-direction: column;
     gap: 10px;
+    width: 200%;
   }
 
   .step p {

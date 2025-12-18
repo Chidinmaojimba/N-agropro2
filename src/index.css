@@ -448,12 +448,20 @@ display: flex;
     justify-content: center;
     text-align: center;
 }
-  .overviewTwo{
-    
+ /* .overviewTwo{
     justify-content: center;
     text-align: center;
+  }  */
 
+  .overviewTwo{
+justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
   }
+ 
+
+  
   .overviewTwo p{
    font-size: 17px; 
   }
@@ -479,18 +487,7 @@ display: flex;
 
   
 
-  .overviewp {
-    /* display: flex;
-    align-items: center;
-   justify-items:center;
-    align-self: center; */
-    /* text-align: center; */
-  }
-
-  /* .footer-links{
-    justify-content: space-around;
-    align-items: center; */
-  }
+ 
 
 
   @media  (max-width: 505px) {
@@ -498,6 +495,13 @@ display: flex;
   height: 50px;
     width: 120px;
 }
+ 
+ .overviewTwo{
+justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+  }
 
   }
   
